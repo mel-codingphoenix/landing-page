@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Josefin+Sans:wght@400;500;600&family=Pacifico&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #c93d57;
+}
+
+.main {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/background3.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.navbar ul li a {
+    padding: 7px 15px;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a.act, .navbar ul li a:hover {
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.logo-text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Dancing Script', cursive;
+    color: var(--main-color);
+}
+
+.theme-color {
+    color: var(--main-color);
+}
+.con {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button.btn {
+    color: var(--main-color);
+    background: none;
+    border: 2px solid var(--main-color);
+    border-radius: 35px;
+}
+
+button.btn:hover {
+    background: var(--main-color) !important;
+    color: white !important;
+}
+
